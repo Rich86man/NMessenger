@@ -13,54 +13,54 @@ import UIKit
 
 //MARK: UIFont extension
 /**
- Custom Fonts for NMessenger
- */
+Custom Fonts for NMessenger
+*/
 extension UIFont {
-    class func n1H1Font() -> UIFont {
-		return UIFont(name: "SanFranciscoDisplay-Thin", size: 28.0)!
-    }
+	class func n1H1Font() -> UIFont {
+		return UIFont(name: "HelveticaNeue-Thin", size: 28.0)!
+	}
 
-    class func n1H2Font() -> UIFont {
-        return UIFont(name: "SanFranciscoDisplay-Light", size: 20.0)!
-    }
+	class func n1H2Font() -> UIFont {
+		return UIFont(name: "HelveticaNeue-Light", size: 20.0)!
+	}
 
-    class func n1H3Font() -> UIFont {
-        return UIFont(name: "SanFranciscoDisplay-Regular", size: 18.0)!
-    }
+	class func n1H3Font() -> UIFont {
+		return UIFont(name: "HelveticaNeue", size: 18.0)!
+	}
 
-    class func n1LinkFont() -> UIFont {
-        return UIFont(name: "SanFranciscoDisplay-Semibold", size: 16.0)!
-    }
+	class func n1LinkFont() -> UIFont {
+		return UIFont(name: "HelveticaNeue-Semibold", size: 16.0)!
+	}
 
-    class func n1TextStyleFont() -> UIFont {
-        return UIFont(name: "SanFranciscoDisplay-Regular", size: 16.0)!
-    }
+	class func n1TextStyleFont() -> UIFont {
+		return UIFont(name: "HelveticaNeue", size: 16.0)!
+	}
 
-    class func n1B1Font() -> UIFont {
-        return UIFont(name: "SanFranciscoDisplay-Regular", size: 16.0)!
-    }
+	class func n1B1Font() -> UIFont {
+		return UIFont(name: "HelveticaNeue", size: 16.0)!
+	}
 
-    class func n1TextStyle3Font() -> UIFont {
-        return UIFont(name: "SanFranciscoDisplay-Bold", size: 12.0)!
-    }
+	class func n1TextStyle3Font() -> UIFont {
+		return UIFont(name: "HelveticaNeue-Bold", size: 12.0)!
+	}
 
-    class func n1TextStyle3MiniFont() -> UIFont {
-        return UIFont(name: "SanFranciscoDisplay-Bold", size: 8.0)!
-    }
+	class func n1TextStyle3MiniFont() -> UIFont {
+		return UIFont(name: "HelveticaNeue-Bold", size: 8.0)!
+	}
 
-    class func n1TextStyle2Font() -> UIFont {
-        return UIFont(name: "SanFranciscoDisplay-Regular", size: 14.0)!
-    }
+	class func n1TextStyle2Font() -> UIFont {
+		return UIFont(name: "HelveticaNeue", size: 14.0)!
+	}
 
-    class func n1B2Font() -> UIFont {
-        return UIFont(name: "SanFranciscoDisplay-Regular", size: 14.0)!
-    }
+	class func n1B2Font() -> UIFont {
+		return UIFont(name: "HelveticaNeue", size: 14.0)!
+	}
 
-    class func n1TextStyle4Font() -> UIFont {
-        return UIFont(name: "SanFranciscoDisplay-Light", size: 14.0)!
-    }
+	class func n1TextStyle4Font() -> UIFont {
+		return UIFont(name: "HelveticaNeue-Light", size: 14.0)!
+	}
 
-    class func n1CaptionFont() -> UIFont {
-        return UIFont(name: "SanFranciscoDisplay-Medium", size: 12.0)!
-    }
+	class func n1CaptionFont() -> UIFont {
+		return UIFont(name: "HelveticaNeue-Medium", size: 12.0)!
+	}
 }
