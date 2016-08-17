@@ -17,50 +17,50 @@ import UIKit
  */
 extension UIFont {
     class func n1H1Font() -> UIFont {
-        return UIFont.systemFontOfSize(28.0, weight: UIFontWeightThin)
+		return UIFont(name: "SanFranciscoDisplay-Thin", size: 28.0)!
     }
-    
+
     class func n1H2Font() -> UIFont {
-        return UIFont.systemFontOfSize(20.0, weight: UIFontWeightLight)
+        return UIFont(name: "SanFranciscoDisplay-Light", size: 20.0)!
     }
-    
+
     class func n1H3Font() -> UIFont {
-        return UIFont.systemFontOfSize(18.0, weight: UIFontWeightRegular)
+        return UIFont(name: "SanFranciscoDisplay-Regular", size: 18.0)!
     }
-    
+
     class func n1LinkFont() -> UIFont {
-        return UIFont.systemFontOfSize(16.0, weight: UIFontWeightSemibold)
+        return UIFont(name: "SanFranciscoDisplay-Semibold", size: 16.0)!
     }
-    
+
     class func n1TextStyleFont() -> UIFont {
-        return UIFont.systemFontOfSize(16.0, weight: UIFontWeightRegular)
+        return UIFont(name: "SanFranciscoDisplay-Regular", size: 16.0)!
     }
-    
+
     class func n1B1Font() -> UIFont {
-        return UIFont.systemFontOfSize(16.0, weight: UIFontWeightRegular)
+        return UIFont(name: "SanFranciscoDisplay-Regular", size: 16.0)!
     }
-    
+
     class func n1TextStyle3Font() -> UIFont {
-        return UIFont.systemFontOfSize(12.0, weight: UIFontWeightBold)
+        return UIFont(name: "SanFranciscoDisplay-Bold", size: 12.0)!
     }
-    
+
     class func n1TextStyle3MiniFont() -> UIFont {
-        return UIFont.systemFontOfSize(8.0, weight: UIFontWeightBold)
+        return UIFont(name: "SanFranciscoDisplay-Bold", size: 8.0)!
     }
-    
+
     class func n1TextStyle2Font() -> UIFont {
-        return UIFont.systemFontOfSize(14.0, weight: UIFontWeightRegular)
+        return UIFont(name: "SanFranciscoDisplay-Regular", size: 14.0)!
     }
-    
+
     class func n1B2Font() -> UIFont {
-        return UIFont.systemFontOfSize(14.0, weight: UIFontWeightRegular)
+        return UIFont(name: "SanFranciscoDisplay-Regular", size: 14.0)!
     }
-    
+
     class func n1TextStyle4Font() -> UIFont {
-        return UIFont.systemFontOfSize(14.0, weight: UIFontWeightLight)
+        return UIFont(name: "SanFranciscoDisplay-Light", size: 14.0)!
     }
-    
+
     class func n1CaptionFont() -> UIFont {
-        return UIFont.systemFontOfSize(12.0, weight: UIFontWeightMedium)
+        return UIFont(name: "SanFranciscoDisplay-Medium", size: 12.0)!
     }
 }
